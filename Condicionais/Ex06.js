@@ -8,10 +8,6 @@ switch(dia){
     case 1:
         console.log("O dia escolhido foi: Domingo!");
         break;
-
-        case 1:
-            console.log("O dia escolhido foi: Domingo!");
-            break;
             
             case 2:
         console.log("O dia escolhido foi: Segunda");
