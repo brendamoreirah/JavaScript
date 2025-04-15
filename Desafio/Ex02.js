@@ -11,6 +11,6 @@ let produtos = [
 ];
 
 // Exibindo os produtos e preços formatados
-produtos.forEach(produto => {
+produtos.map(produto => {
     console.log(`${produto.nome} - R$ ${produto.preco.toFixed(2).replace(".", ",")}`);
 });
